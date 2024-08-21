@@ -1,0 +1,363 @@
+{
+  "instructors": [
+    {
+      "id": "f2b7",
+      "username": "newinst",
+      "email": "inst@test",
+      "password": "abcs",
+      "achievements": []
+    }
+  ],
+  "students": [
+    {
+      "id": "1so0",
+      "username": "Pagal",
+      "email": "pagal@test.com",
+      "password": "1234",
+      "achievements": [
+        {
+          "achievementName": "Topper",
+          "achievementTask": "Achieve highest scores in 3 Quizzes.",
+          "status": "Completed",
+          "xp": 100,
+          "date": "08 March, 2024, 10:20 AM"
+        },
+        {
+          "achievementName": "Champion",
+          "achievementTask": "Achieve highest scores in 3 Assignments.",
+          "status": "Completed",
+          "xp": 500,
+          "date": "08 March, 2024, 10:20 AM"
+        },
+        {
+          "achievementName": "Leader",
+          "achievementTask": "Submit the assignment very first.",
+          "status": "New",
+          "xp": 100,
+          "date": "08 March, 2024, 10:20 AM"
+        }
+      ]
+    },
+    {
+      "id": "3aa2",
+      "username": "keal",
+      "email": "ke@hal",
+      "password": "12",
+      "achievements": [
+        {
+          "achievementName": "Topper",
+          "achievementTask": "Achieve highest scores in 3 Quizzes.",
+          "status": "Completed",
+          "xp": 100,
+          "date": "08 March, 2024, 10:20 AM"
+        },
+        {
+          "achievementName": "Champion",
+          "achievementTask": "Achieve highest scores in 3 Assignments.",
+          "status": "Completed",
+          "xp": 500,
+          "date": "08 March, 2024, 10:20 AM"
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "courseName": "UX Laws",
+      "courseDesc": "This course covers all the laws of UX theoretically and practically. UX laws are essential to understand the user experience of stakeholders.",
+      "category": "Design",
+      "students": [
+        {
+          "id": "1so0",
+          "status": "Not completed",
+          "percentage": 60
+        },
+        {
+          "id": "3aa2",
+          "status": "Not completed",
+          "percentage": 46
+        }
+      ],
+      "mentors": [
+        {
+          "id": "f2b7",
+          "username": "Falana",
+          "email": "inst@test",
+          "password": "abcs",
+          "designation":"IT Professor",
+          "status":"Offline"
+        },
+        {
+          "id": "k0s1",
+          "username": "Dimaka",
+          "email": "inst@test",
+          "password": "abcs",
+          "designation":"Senior",
+          "status": "Active"
+        }
+      ],
+      "lectureNotes": [
+            {
+              "id": 1,
+              "lectureName": "UX Fundamentals",
+              "courseName": "UX Laws",
+              "createdOn": "08 March, 2024, 10:20 AM",
+              "students": [
+                {
+                  "id": "1so0",
+                  "status": "Completed"
+                },
+                {
+                  "id": "3aa2",
+                  "status": "Completed"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "lectureName": "Research",
+              "courseName": "UX Laws",
+              "createdOn": "08 March, 2024, 10:20 AM",
+              "students": [
+                {
+                  "id": "1so0",
+                  "status": "Completed"
+                },
+                {
+                  "id": "3aa2",
+                  "status": "Completed"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "lectureName": "Research",
+              "courseName": "UX Laws",
+              "createdOn": "08 March, 2024, 10:20 AM",
+              "students": [
+                {
+                  "id": "1so0",
+                  "status": "Completed"
+                },
+                {
+                  "id": "3aa2",
+                  "status": "Completed"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "lectureName": "Modules",
+              "courseName": "UX Laws",
+              "createdOn": "08 March, 2024, 10:20 AM",
+              "students": [
+                {
+                  "id": "1so0",
+                  "status": "Not completed"
+                },
+                {
+                  "id": "3aa2",
+                  "status": "Not completed"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "lectureName": "Research",
+              "courseName": "UX Laws",
+              "createdOn": "08 March, 2024, 10:20 AM",
+              "students": [
+                {
+                  "id": "1so0",
+                  "status": "Completed"
+                },
+                {
+                  "id": "3aa2",
+                  "status": "Not completed"
+                }
+              ]
+            }
+      ],
+      "assignments": [
+        {
+          "id": 1,
+          "assignmentName": "UX Fundamentals",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Completed"
+            },
+            {
+              "id": "3aa2",
+              "status": "In-progress"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "assignmentName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Completed"
+            },
+            {
+              "id": "3aa2",
+              "status": "Failed"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "assignmentName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "assignmentName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Upcoming"
+            },
+            {
+              "id": "3aa2",
+              "status": "Completed"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "assignmentName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Failed"
+            },
+            {
+              "id": "3aa2",
+              "status": "Completed"
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 1,
+          "quizName": "UX Fundamentals",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Completed"
+            },
+            {
+              "id": "3aa2",
+              "status": "In-progress"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "quizName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Completed"
+            },
+            {
+              "id": "3aa2",
+              "status": "Failed"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "quizName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Upcoming"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "quizName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Upcoming"
+            },
+            {
+              "id": "3aa2",
+              "status": "Completed"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "quizName": "Research",
+          "courseName": "UX Laws",
+          "dueDate": "08 March, 2024, 10:20 AM",
+          "students": [
+            {
+              "id": "1so0",
+              "status": "Failed"
+            },
+            {
+              "id": "3aa2",
+              "status": "Completed"
+            }
+          ]
+        }
+      ],
+      "announcements": [
+        {
+          "id": 1,
+          "courseName": "UX Laws",
+          "msg": "Lorem ipsum dolor set amet is a dummy announcement.",
+          "instructor": "John Doe",
+          "date": "08 March, 2024, 10:20 AM"
+        },
+        {
+          "id": 2,
+          "courseName": "UX Laws",
+          "msg": "Lorem ipsum dolor set amet is a dummy announcement.",
+          "instructor": "ABCD",
+          "date": "08 March, 2024, 10:20 AM"
+        },
+        {
+          "id": 3,
+          "courseName": "UX Laws",
+          "msg": "Lorem ipsum dolor set amet is a dummy announcement.",
+          "instructor": "John Doe",
+          "date": "08 March, 2024, 10:20 AM"
+        }
+      ]
+    }
+  ]
+}
